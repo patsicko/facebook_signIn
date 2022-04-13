@@ -1,0 +1,121 @@
+.main{
+    height: 600px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 60px;
+   border:1px solid #000000;
+   background-color: #eae6e6c8;  
+}
+.part1{
+    height: 350px;
+    background-color: rgb(85, 85, 178);
+    
+}
+
+.part1_top{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+   
+}
+.form1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+    margin-top: 10px;
+    
+}
+.form1 form input[type=email]{
+    width: 200px;
+    border:none;
+}
+.form1 form input[type=password]{
+    width: 200px;
+    border: none;
+}
+.form1 button[type=submit]{
+    height: 30px;
+    width: 90px;
+    color: #ffffff;
+    border: none;
+     background-color: rgb(98, 98, 186);
+}
+
+
+.facebook{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.part1_content{
+    margin-left: 35%;
+    margin-right: 25%;
+    width: 400px;
+    margin-top: 10%;
+    height: 100px;
+    line-height: 40px;
+}
+.cont1{
+    font-size: 27px;
+    font-weight:700px;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+.cont2{
+    font-size: 15px;
+    font-weight:400px;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+.part2_square{
+    margin-left: 35%;
+    margin-right: 25%;
+    width: 400px;
+    margin-top: -3%;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 18px;
+    background-color: #ffffff;
+}
+.part2_signup{
+font-size: 20px;
+color: rgb(125, 129, 133);
+font-weight: 400;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+input[type=text]{
+    height: 30px;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     width: 350px;
+}
+input[type=email]{
+    height: 30px;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     width: 350px;
+}
+input[type=password]{
+    height: 30px;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     width: 350px;
+}
+
+button[type=button]{
+    height: 35px;
+    width: 350px;
+    border: none;
+    background-color: rgb(90, 90, 205);
+    color: #ffffff;
+}
